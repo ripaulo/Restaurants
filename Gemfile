@@ -30,9 +30,6 @@ gem "jbuilder"
 # Simple form.
 gem 'simple_form'
 
-# Bootstrap gem.
-gem 'bootstrap', '~> 5.2.2'
-
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -47,6 +44,12 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+
+# Faker Gem.
+gem 'faker'
+
+# Bootstrap gem
+gem 'bootstrap', '~> 5.2', '>= 5.2.3'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
