@@ -4,7 +4,7 @@ Restaurant.destroy_all
 
 puts "Create restaurants..."
 
-100.times do |restaurant|
+100.times do
   Restaurant.create(
     name: Faker::Company.name,
     address: Faker::Address.full_address,
